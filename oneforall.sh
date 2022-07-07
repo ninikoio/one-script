@@ -1,4 +1,7 @@
 #!/usr/bin/bash
+clear     
+echo -e "# ${GREEN}作者${PLAIN}: 网络跳越(hijk)"
+echo -e "# ${GREEN}TG群${PLAIN}: https://t.me/hijkclub"
 
 Red_font_prefix="\033[31m"
 Font_color_suffix="\033[0m"
