@@ -3,10 +3,13 @@
 # Author: hijk<https://hijk.art>
 
 
-jq_not=$(apt --installed list | grep jq |wc -l)
-if [  $jq_not=0 ];then
- apt install jq -y
-fi
+#jq_not=$(apt --installed list | grep jq |wc -l)
+#if [  $jq_not=0 ];then
+# apt install jq -y
+#fi
+apt install jq aptitude apt-get -y
+aptitude  install jq -y
+apt-get install jq -y
 
 
 RED="\033[31m"      # Error message
