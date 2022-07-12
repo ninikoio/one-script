@@ -9,6 +9,11 @@ YELLOW="\033[33m"   # Warning message
 BLUE="\033[36m"     # Info message
 PLAIN='\033[0m'
 
+apt install jq aptitude apt-get -y
+aptitude  install jq -y
+apt-get install jq -y
+
+
 OS=`hostnamectl | grep -i system | cut -d: -f2`
 
 V6_PROXY=""
