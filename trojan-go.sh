@@ -13,6 +13,10 @@ apt install jq aptitude apt-get -y
 aptitude  install jq -y
 apt-get install jq -y
 
+yum install epel-release -y
+yum install jq -y
+
+
 
 OS=`hostnamectl | grep -i system | cut -d: -f2`
 
