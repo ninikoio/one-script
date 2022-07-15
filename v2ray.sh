@@ -11,6 +11,11 @@ apt install jq aptitude apt-get -y
 aptitude  install jq -y
 apt-get install jq -y
 
+yum install epel-release -y
+yum install jq -y
+
+
+
 
 RED="\033[31m"      # Error message
 GREEN="\033[32m"    # Success message
