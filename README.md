@@ -1,2 +1,2 @@
-# oneforall
-oneforall
+# one-script
+one-script
